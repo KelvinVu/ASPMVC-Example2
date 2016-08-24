@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6989d111ada842cbb5c04dcb0bf4faf7" Name="Diagram1">
+        <EntityTypeShape EntityType="BaiTap.Models.ChuDe" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="BaiTap.Models.DatHang" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BaiTap.Models.DatHangCT" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BaiTap.Models.KhachHang" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BaiTap.Models.NhaXuatBan" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BaiTap.Models.Sach" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BaiTap.Models.TacGia" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BaiTap.Models.ThamGia" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="BaiTap.Models.FK_Sach_ChuDe" ManuallyRouted="false" />
+        <AssociationConnector Association="BaiTap.Models.FK_DatHang_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="BaiTap.Models.FK_DatHangCT_DatHang" ManuallyRouted="false" />
+        <AssociationConnector Association="BaiTap.Models.FK_DatHangCT_Sach" ManuallyRouted="false" />
+        <AssociationConnector Association="BaiTap.Models.FK_Sach_NhaXuatBan" ManuallyRouted="false" />
+        <AssociationConnector Association="BaiTap.Models.FK_ThamGia_Sach" ManuallyRouted="false" />
+        <AssociationConnector Association="BaiTap.Models.FK_ThamGia_TacGia" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
